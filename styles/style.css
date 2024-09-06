@@ -1,6 +1,7 @@
 body {
   padding: 0;
   text-align: center;
+  margin: 0;
 }
 
 #game-intro {
@@ -8,14 +9,13 @@ body {
 }
 
 #game-container {
-  display: flex;
+  display: none;
   width: 100vw;
   padding: 20px 0px;
   justify-content: center;
 }
 
 #game-screen {
-  display: none;
   align-content: center;
   padding: 20px 0px;
   overflow: hidden;
